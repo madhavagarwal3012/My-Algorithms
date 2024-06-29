@@ -42,9 +42,9 @@ More algorithms and optimizations will be added to this repository in the future
 Each algorithm can be used by importing the respective Program file and calling its methods with your data.
 To use the algorithms in your Java project:
 
-- Copy the my_algorithms.java file into your project's source directory.
-- Import the algorithms.my_algorithms class in your code.
-- Call the desired method, e.g., my_algorithms.selectionSortBetter(arr).
+- Copy the `my_algorithms.java` file into your project's source directory.
+- Import the `algorithms.my_algorithms` class in your code.
+- Call the desired method, e.g., `my_algorithms.selectionSortBetter(arr)`.
 
 ## Contributing 🤝
 
