@@ -13,9 +13,17 @@ Welcome to the "My Algorithms" repository! This repository contains implementati
 
 The optimized version of selection sort in this repository simultaneously finds both the minimum and maximum elements in each pass through the array. This approach reduces the number of comparisons and potentially improves sorting efficiency, especially on partially sorted data.
 
+#### Key Features:
+- Finds both minimum and maximum elements in a single pass
+- Swaps elements at both ends of the array
+- Reduces the number of comparisons compared to traditional selection sort
+
+For implementation details, please refer to the `my_algorithms.java` file in the repository.
+
 ### (Future Algorithms) 🔍
 
 More algorithms and optimizations will be added to this repository in the future. Stay tuned for updates and enhancements to further explore various algorithmic techniques and optimizations.
+
 
 ## 🛠️ Installation
 
@@ -32,6 +40,11 @@ More algorithms and optimizations will be added to this repository in the future
 ## 📚 Usage
 
 Each algorithm can be used by importing the respective Program file and calling its methods with your data.
+To use the algorithms in your Java project:
+
+- Copy the my_algorithms.java file into your project's source directory.
+- Import the algorithms.my_algorithms class in your code.
+- Call the desired method, e.g., my_algorithms.selectionSortBetter(arr).
 
 ## Contributing 🤝
 
