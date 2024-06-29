@@ -29,6 +29,10 @@ More algorithms and optimizations will be added to this repository in the future
    cd My-Algorithms
    ```
 
+## 📚 Usage
+
+Each algorithm can be used by importing the respective Program file and calling its methods with your data.
+
 ## Contributing 🤝
 
 Contributions to this repository are welcome! If you have any ideas, suggestions, or bug reports, please open an issue on the [GitHub repository](https://github.com/madhavagarwal3012/My-Algorithms/issues). If you'd like to contribute code, you can fork the repository and submit a pull request.
