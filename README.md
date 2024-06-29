@@ -59,6 +59,10 @@ If you have any questions or need further assistance, feel free to reach out:
 - GitHub: [madhavagarwal3012](https://github.com/madhavagarwal3012)
 - Linktree: [madhavagarwal3012](https://linktr.ee/madhavagarwal3012)
 
+## ⭐ Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=madhavagarwal3012/My-Algorithms&type=Date)](https://star-history.com/#madhavagarwal3012/My-Algorithms&Date)
+
 ## License 📄
 
 This repository is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more information.
