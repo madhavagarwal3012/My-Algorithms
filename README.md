@@ -41,7 +41,7 @@ Contributions to this repository are welcome! If you have any ideas, suggestions
 - Test your changes thoroughly before submitting a pull request.
 - Use clear commit messages.
 
-If you find Calcunite useful, consider star this repository (●'◡'●)
+If you find My Algorithms useful, consider star this repository (●'◡'●)
 
 ## 🍀 Sponsor This Project
 
