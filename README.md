@@ -18,6 +18,12 @@ The optimized version of selection sort in this repository simultaneously finds 
 - Swaps elements at both ends of the array
 - Reduces the number of comparisons compared to traditional selection sort
 
+#### Performance 📊
+The optimized Selection Sort implementation aims to reduce the number of comparisons, especially beneficial for larger datasets. While specific benchmarks are not yet available, this approach theoretically improves efficiency by:
+
+- Reducing the number of passes through the array
+- Performing simultaneous min-max comparisons
+
 For implementation details, please refer to the `my_algorithms.java` file in the repository.
 
 ### (Future Algorithms) 🔍
