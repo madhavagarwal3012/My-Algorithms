@@ -17,6 +17,18 @@ The optimized version of selection sort in this repository simultaneously finds 
 
 More algorithms and optimizations will be added to this repository in the future. Stay tuned for updates and enhancements to further explore various algorithmic techniques and optimizations.
 
+## 🛠️ Installation
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/madhavagarwal3012/My-Algorithms.git
+   ```
+
+2. Navigate to the project directory:
+   ```
+   cd My-Algorithms
+   ```
+
 ## Contributing 🤝
 
 Contributions to this repository are welcome! If you have any ideas, suggestions, or bug reports, please open an issue on the [GitHub repository](https://github.com/madhavagarwal3012/My-Algorithms/issues). If you'd like to contribute code, you can fork the repository and submit a pull request.
