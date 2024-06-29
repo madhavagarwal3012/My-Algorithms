@@ -65,4 +65,4 @@ If you have any questions or need further assistance, feel free to reach out:
 
 ## License 📄
 
-This repository is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more information.
+This project is licensed under the [MIT License](LICENSE).
