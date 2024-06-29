@@ -1,10 +1,6 @@
 # My Algorithms 🧮
 
-Welcome to the "My Algorithms" repository! This repository contains implementations and optimizations of various algorithms, starting with an optimization of selection sort.
-
-## Description 📚
-
-Explore implementations and optimizations of common algorithms in this repository, where I showcase both traditional approaches and innovative optimizations to solve computational problems efficiently.
+Welcome to the "My Algorithms" repository! This repository contains implementations and optimizations of various algorithms. Explore implementations and optimizations of common algorithms in this repository, where I showcase both traditional approaches, innovative optimizations as well as new algorithms designed by me to solve computational problems efficiently.
 
 ## Implemented Algorithms and Optimizations 🛠️
 
