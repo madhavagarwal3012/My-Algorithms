@@ -10,7 +10,6 @@ Explore implementations and optimizations of common algorithms in this repositor
 
 | Algorithm           | Description                                                                 |
 |---------------------|-----------------------------------------------------------------------------|
-| Selection Sort      | Traditional implementation of selection sort                                |
 | Selection Sort (Optimized) | Optimized version: Simultaneous finding of both minimum and maximum elements |
 | (Future Algorithms) | More algorithms and optimizations will be added in the future               |
 
