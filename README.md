@@ -3,10 +3,12 @@
 Welcome to the "My Algorithms" repository! This repository contains implementations and optimizations of various algorithms. Explore implementations and optimizations of common algorithms in this repository, where I showcase both traditional approaches, innovative optimizations as well as new algorithms designed by me to solve computational problems efficiently.
 
 ## 🛠️ Implemented Algorithms and Optimizations 
-| Algorithm           | Description                                                                 |
-|---------------------|-----------------------------------------------------------------------------|
+
+| Algorithm                  | Description                                                                 |
+|----------------------------|-----------------------------------------------------------------------------|
 | Selection Sort (Optimized) | Optimized version: Simultaneous finding of both minimum and maximum elements |
-| (Future Algorithms) | More algorithms and optimizations will be added in the future               |
+| Array Rotation (Flexible)  | Flexible approach for both left and right rotations with error handling     |
+| (Future Algorithms)        | More algorithms and optimizations will be added in the future               |
 
 ### 🚀 Selection Sort (Optimized) 
 
@@ -17,18 +19,35 @@ The optimized version of selection sort in this repository simultaneously finds 
 - Swaps elements at both ends of the array
 - Reduces the number of comparisons compared to traditional selection sort
 
-#### 📊 Performance 
-The optimized Selection Sort implementation aims to reduce the number of comparisons, especially beneficial for larger datasets. While specific benchmarks are not yet available, this approach theoretically improves efficiency by:
+#### 📊 Performance
+- Time Complexity: O(n^2)
+- Space Complexity: O(1)
 
-- Reducing the number of passes through the array
-- Performing simultaneous min-max comparisons
+This approach aims to reduce the overall number of comparisons, potentially improving efficiency, especially for partially sorted arrays or when dealing with larger datasets.
 
-For implementation details, please refer to the `my_algorithms.java` file in the repository.
+### 🔄 Array Rotation (Flexible)
+
+This implementation offers a flexible approach to array rotation, supporting both left and right rotations with robust error handling.
+
+#### 🌟 Key Features:
+- Supports both left and right rotations
+- Handles rotation amounts larger than array length
+- Includes error checking for invalid rotation directions
+- Uses a new array for rotation, ensuring clarity and avoiding side effects
+
+#### 📊 Performance
+- Time Complexity: O(n)
+- Space Complexity: O(n)
+
+This approach prioritizes flexibility, clarity, and robustness over absolute space efficiency, making it ideal for most real-world scenarios where these factors are crucial.
 
 ### 🔍 (Future Algorithms) 
 
 More algorithms and optimizations will be added to this repository in the future. Stay tuned for updates and enhancements to further explore various algorithmic techniques and optimizations.
 
+## 🛠️ Installation
+
+1. Clone the repository:
 
 ## 🛠️ Installation
 
@@ -45,11 +64,11 @@ More algorithms and optimizations will be added to this repository in the future
 ## 📚 Usage
 
 Each algorithm can be used by importing the respective Program file and calling its methods with your data.
-To use the algorithms in your Java project:
 
+To use the algorithms in your Java project:
 - Copy the `my_algorithms.java` file into your project's source directory.
 - Import the `algorithms.my_algorithms` class in your code.
-- Call the desired method, e.g., `my_algorithms.selectionSortBetter(arr)`.
+- Call the desired method, e.g., `my_algorithms.selectionSortBetter(arr)` or `my_algorithms.arrayRotation(arr, rotationSteps, direction)`.
 
 ## 🤝 Contributing 
 
@@ -59,21 +78,19 @@ Contributions to this repository are welcome! If you have any ideas, suggestions
 - Test your changes thoroughly before submitting a pull request.
 - Use clear commit messages.
 
-If you find My Algorithms useful, consider star this repository (●'◡'●)
+If you find My Algorithms useful, consider starring this repository (●'◡'●)
 
 ## 🍀 Sponsor This Project
 
-You can sponsor this project via these ways.
-
+You can sponsor this project via these ways:
 + [Github Sponsors](https://github.com/sponsors/madhavagarwal3012)
 + [Buy me a coffee](https://buymeacoffee.com/madhavagarwal3012)
 
-Your sponsorship will help me to work on my algorithms continously.
+Your sponsorship will help me to work on my algorithms continuously.
 
 ## 📧 Contact
 
 If you have any questions or need further assistance, feel free to reach out:
-
 - GitHub: [madhavagarwal3012](https://github.com/madhavagarwal3012)
 - Linktree: [madhavagarwal3012](https://linktr.ee/madhavagarwal3012)
 
@@ -84,3 +101,4 @@ If you have any questions or need further assistance, feel free to reach out:
 ## 📖 License 
 
 This project is licensed under the [MIT License](LICENSE).
+   
