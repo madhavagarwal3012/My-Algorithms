@@ -1,5 +1,7 @@
 package algorithms;
 
+import java.util.*;
+
 public class my_algorithms {
 	
 	public static int[] selectionSortBetter(int arr[]) {
@@ -42,17 +44,145 @@ public class my_algorithms {
 		}
 		return arr;
 	}
+	public static int[] arrayRotation(int [] array, int rotationSteps, String direction){
+        rotationSteps = rotationSteps % array.length;
+        int [] rotatedArray = new int[array.length];
+
+        for(int index = 0; index < array.length; index++){
+            int newIndex = (index + rotationSteps) % array.length;
+            if(direction.toUpperCase().equals("LEFT")){
+                rotatedArray[index] = array[newIndex];
+            }
+            else if(direction.toUpperCase().equals("RIGHT")){
+                rotatedArray[newIndex] = array[index];
+            }
+            else{
+                System.out.print("\nInvalid Direction, Cannot Rotate Beyond Left Or Right.\n");
+                return array;
+            }
+        }
+        return rotatedArray;
+    }
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		int arr[] = {100, 92, 83, 74, 65, 56, 47, 38, 29, 20, 11, 2, 91, 82, 73, 64, 55, 46, 37, 28, 19, 10, 1, 90, 81, 72, 63, 54, 45, 36, 27, 18, 9, 0, 89, 80, 71, 62, 53, 44, 35, 26, 17, 8, 99, 88, 79, 70, 61, 52, 43, 34, 25, 16, 7, 98, 87, 78, 69, 60, 51, 42, 33, 24, 15, 6, 97, 86, 77, 68, 59, 50, 41, 32, 23, 14, 5, 96, 85, 76, 67, 58, 49, 40, 31, 22, 13, 4, 95, 84, 75, 66, 57, 48, 39, 30, 21, 12, 3, 94, 93};
-		arr = selectionSortBetter(arr);
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Welcome To My Algorithm Portal");
 		
-		System.out.print("{");
-		for(int index = 0; index < arr.length-1; index++) {
-			System.out.print(arr[index]+" ");
+		System.out.println("\nCurrently I Have Two Algorithms");
+		System.out.println("1) Selection Sort");
+		System.out.println("2) Array Rotation\n");
+		int choice = 0;
+		
+		while(true) {
+			try {
+				System.out.print("Enter Choice: ");
+				choice = scanner.nextInt();
+				break;
+			}
+			catch (java.util.InputMismatchException exception) {
+	            System.out.println("Invalid Input! Please Enter An Integer.\n");
+	            scanner.nextLine();
+			}
 		}
-		System.out.print(arr[arr.length - 1]);
-		System.out.print("}");
+		
+		if(choice == 1) {
+			System.out.println("\nSelection Sort");
+			
+			System.out.print("Enter Length Of Array: ");
+			int length = scanner.nextInt();
+			
+			int array [] = new int[length];
+			for(int index = 0; index < length; index++) {
+				while(true) {
+					try {
+						System.out.print("Enter Element At Index " + index + ": ");
+						array[index] = scanner.nextInt();
+						break;
+					}
+					catch (java.util.InputMismatchException exception) {
+			            System.out.println("Invalid Input! Please Enter An Integer.\n");
+			            scanner.nextLine();
+					}
+				}
+			}
+			System.out.println("\nArray Before Sort");
+			
+			System.out.print("{");
+			for(int index = 0; index < array.length-1; index++) {
+				System.out.print(array[index]+" ");
+			}
+			System.out.print(array[array.length - 1]);
+			System.out.println("}");
+			
+			array = selectionSortBetter(array);
+			
+			System.out.println("\nArray After Sort");
+			System.out.print("{");
+			for(int index = 0; index < array.length-1; index++) {
+				System.out.print(array[index]+" ");
+			}
+			System.out.print(array[array.length - 1]);
+			System.out.println("}");
+		}
+		
+		else if(choice == 2) {
+			System.out.println("\nArray Rotation");
+			
+			System.out.print("Enter Length Of Array: ");
+			int length = scanner.nextInt();
+			
+			int array [] = new int[length];
+			for(int index = 0; index < length; index++) {
+				while(true) {
+					try {
+						System.out.print("Enter Element At Index " + index + ": ");
+						array[index] = scanner.nextInt();
+						break;
+					}
+					catch (java.util.InputMismatchException exception) {
+			            System.out.println("Invalid Input! Please Enter An Integer.\n");
+			            scanner.nextLine();
+					}
+				}
+			}
+			
+			System.out.print("\nEnter Direction, Left Or Right: ");
+			String direction = scanner.next();
+			int rotationSteps = 0;
+			while(true) {
+				try {
+					System.out.print("Enter Rotation Steps: ");
+					rotationSteps = scanner.nextInt();
+					break;
+				}
+				catch (java.util.InputMismatchException exception) {
+		            System.out.println("Invalid Input! Please Enter An Integer.\n");
+		            scanner.nextLine();
+				}
+			}
+			
+			System.out.println("\nArray Before Rotation");
+			
+			System.out.print("{");
+			for(int index = 0; index < array.length-1; index++) {
+				System.out.print(array[index]+" ");
+			}
+			System.out.print(array[array.length - 1]);
+			System.out.println("}");
+			
+			array = arrayRotation(array, rotationSteps, direction);
+					
+			System.out.println("\nArray After Rotation");
+			System.out.print("{");
+			for(int index = 0; index < array.length-1; index++) {
+				System.out.print(array[index]+" ");
+			}
+			System.out.print(array[array.length - 1]);
+			System.out.println("}");
+		}
+		else {
+			scanner.close();
+			System.out.println("Invalid Choice");
+		}
 
 	}
 }
