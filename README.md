@@ -48,10 +48,6 @@ More algorithms and optimizations will be added to this repository in the future
 ## 🛠️ Installation
 
 1. Clone the repository:
-
-## 🛠️ Installation
-
-1. Clone the repository:
    ```
    git clone https://github.com/madhavagarwal3012/My-Algorithms.git
    ```
